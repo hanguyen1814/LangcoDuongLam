@@ -1,0 +1,27 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* Custom styles for image carousel */
+.carousel-container {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+.carousel-item {
+  scroll-snap-align: center;
+}
